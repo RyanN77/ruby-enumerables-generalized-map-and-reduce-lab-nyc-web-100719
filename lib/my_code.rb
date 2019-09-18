@@ -5,8 +5,8 @@
  
 # map(array){|x| x * -1}
 
-def make_sandwich(element1, element2)
-  yield("A #{element1} and #{element2} sandwich")
-end
- 
-make_sandwich("asdf", "adsf") { |x| "#{x} on rye" }
+def map(array)
+i = 0 
+new_array = []
+while i < array.length 
+
