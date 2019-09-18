@@ -9,9 +9,9 @@ return new_array
 end
 
 def reduce(array, starting_point = array[0])
-array.unshift()
 i = 0 
 value = starting_point
+  array.shift()
   while i < array.length 
   value = yield(value, array[i])
   i += 1
