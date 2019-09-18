@@ -9,6 +9,7 @@ return new_array
 end
 
 def reduce(array, starting_point = array[0])
+array.push(0)
 i = 0 
 value = starting_point
   while i < array.length 
