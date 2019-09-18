@@ -8,5 +8,9 @@
 def map(array)
 i = 0 
 new_array = []
-while i < array.length 
+  while i < array.length 
+  new_array[i] = yield(x) 
+  end
+return new_array
+end
 
