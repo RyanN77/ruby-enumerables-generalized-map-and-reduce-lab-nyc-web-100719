@@ -22,5 +22,5 @@ value = starting_point
   value = yield(value, array[i])
   i += 1
   end
-return new_array
+return value
 end
